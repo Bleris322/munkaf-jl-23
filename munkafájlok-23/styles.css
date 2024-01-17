@@ -36,6 +36,9 @@ body{
     font-weight: bold;
     text-decoration: none;
 }
+#kozepe a:hover{
+    text-decoration:underline;
+}
 
 #alja h1{
     font-size: 1.5em;
@@ -44,6 +47,7 @@ body{
 table{
     width: 90%;
     border: 1px dotted #ccc;
+    margin: 0 auto;
 }
 caption{
     font-size: 1.2em;
@@ -51,10 +55,16 @@ caption{
 }
 th{
     padding: 10px;
+    background-color: #999;
+    text-align:left
 }
 td{
     border: 1px dotted #ccc;
     vertical-align: top;
+}
+
+legend{
+    font-weight:bold;
 }
 
 fieldset{
